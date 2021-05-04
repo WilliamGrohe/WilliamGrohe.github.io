@@ -97,5 +97,6 @@ only screen and (                min-resolution: 2dppx) {
     .top-content .text .logo a {
     	background-image: url(../imagens/logo.png);
     	width: 300px;
+		align-items: center;
     }
 }
