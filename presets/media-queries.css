@@ -12,6 +12,10 @@
 		position: relative;
 		min-height: 480px;
 	}
+
+	.card-flyer-dock {
+		height: 230px !important;
+	}
 	
 }
 
@@ -41,6 +45,10 @@
 		text-align: center;
 		position: relative;
 		min-height: 480px;
+	}
+
+	.card-flyer-dock {
+		height: 190px !important;
 	}
 
 }
@@ -87,6 +95,10 @@
 		text-align: center;
 		position: relative;
 		min-height: 500px;
+	}
+
+	.card-flyer-dock {
+		height: 140px !important;
 	}
 	
 }
@@ -140,11 +152,19 @@
 		position: unset;
 		padding-bottom: 15px;
 	}
+
+	.card-flyer-dock {
+		height: 130px !important;
+	}
 }
 
 @media (max-width: 415px) {
 	
 	h1, h2 { font-size: 32px; }
+
+	.card-flyer-dock {
+		height: 100px !important;
+	}
 
 }
 
