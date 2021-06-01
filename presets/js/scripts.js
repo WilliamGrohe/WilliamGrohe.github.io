@@ -49,6 +49,16 @@ jQuery(document).ready(function() {
     */
     new WOW().init();
 	
+
+	$('#card-grafica').on('click', function(){
+		$('#portfolio_projetos').css({display: 'none'});
+		$('#projetos_graficos').css({display: 'block'});
+	})
+
+	$('#card-projetos').on('click', function(){
+		$('#projetos_graficos').css({display: 'none'});
+		$('#portfolio_projetos').css({display: 'block'});
+	})
 });
 
 
@@ -66,4 +76,6 @@ jQuery(window).load(function() {
 	$(".testimonial-image img").attr("style", "width: auto !important; height: auto !important;");
 	
 });
+
+
 
