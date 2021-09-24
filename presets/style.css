@@ -481,3 +481,7 @@ footer h3 {
 #projetos_graficos {
 	display: none;
 }
+
+#projetos_graficos #cards_landscape_wrap-2 .card-flyer {
+	min-height: 440px;
+}
